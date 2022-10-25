@@ -14,7 +14,7 @@
 - React
 ## Live Demo (if available)
 
-[Not avaiable!]()
+[Not avaiable!]
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -47,7 +47,7 @@ run npm start
 - LinkedIn: [LinkedIn](www.linkedin.com/in/danys-linares-6a328b238)
 ## 🤝 Contributing
 
- - All Contribution are welcome!
+ - All Contribution are welcome! [issues page](https://github.com/MarcoOquendoC/Math/issues).
 ## Show your support
 
 Give a ⭐️ if you like this project!
