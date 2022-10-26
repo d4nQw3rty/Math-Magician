@@ -32,7 +32,7 @@ class Calculator extends React.Component {
               </span>
             </div>
             <div className="div2 height"><button onClick={this.handleClick} type="button" name="AC" className="gridIlignItem  lightGrayBackGround">AC</button></div>
-            <div className="div3 height"><button onClick={this.handleClick} type="button" name="+/-" className="gridIlignItem lightGrayBackGround">+ / -</button></div>
+            <div className="div3 height"><button onClick={this.handleClick} type="button" name="+/-" className="gridIlignItem lightGrayBackGround">+/-</button></div>
             <div className="div4 height"><button onClick={this.handleClick} type="button" name="%" className="gridIlignItem lightGrayBackGround">%</button></div>
             <div className="div5 height"><button onClick={this.handleClick} type="button" name="÷" className="gridIlignItem salmonBackGround">÷</button></div>
             <div className="div6 height">
