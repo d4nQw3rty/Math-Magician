@@ -24,7 +24,14 @@ class Calculator extends React.Component {
         <h1>Calculator</h1>
         <div className="gridContainer">
           <div className="parent">
-            <div className="div1 height grayBackGround"><span className="total"></span></div>
+            <div className="div1 height grayBackGround">
+              <span className="total">
+              { total }
+              { operation }
+              { next }
+              { error }
+              </span>
+            </div>
             <div className="div2 height"><button onClick={this.handleClick} type="button" name="AC" className="gridIlignItem  lightGrayBackGround">AC</button></div>
             <div className="div3 height"><button onClick={this.handleClick} type="button" name="+/-" className="gridIlignItem lightGrayBackGround">+ / -</button></div>
             <div className="div4 height"><button onClick={this.handleClick} type="button" name="%" className="gridIlignItem lightGrayBackGround">%</button></div>
