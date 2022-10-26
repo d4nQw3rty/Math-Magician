@@ -9,7 +9,13 @@ class Calculator extends React.Component {
       next: null,
       operation: null,
     };
-  render() {
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick = (buttonName) => {
+    this.setState(calculate(this.state, buttonName));
+  }
+    render() {
     return (
       <div>
         <h1>Calculator</h1>
