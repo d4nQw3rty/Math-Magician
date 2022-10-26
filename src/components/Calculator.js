@@ -26,10 +26,9 @@ class Calculator extends React.Component {
           <div className="parent">
             <div className="div1 height grayBackGround">
               <span className="total">
-              { total }
-              { operation }
-              { next }
-              { error }
+                { total }
+                { operation }
+                { next }
               </span>
             </div>
             <div className="div2 height"><button onClick={this.handleClick} type="button" name="AC" className="gridIlignItem  lightGrayBackGround">AC</button></div>
@@ -52,8 +51,8 @@ class Calculator extends React.Component {
               <button onClick={this.handleClick} type="button" name="x" className="gridIlignItem salmonBackGround">x</button>
               {' '}
             </div>
-            <div onClick={this.handleClick} className="div10 height">
-              <button type="button" name="4" className="gridIlignItem lightGrayBackGround">4</button>
+            <div className="div10 height">
+              <button onClick={this.handleClick} type="button" name="4" className="gridIlignItem lightGrayBackGround">4</button>
               {' '}
             </div>
             <div className="div11 height">

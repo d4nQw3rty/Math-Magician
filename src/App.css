@@ -50,7 +50,7 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
   grid-column-gap: 1px;
-  grid-row-gap: 1px;  
+  grid-row-gap: 1px;
 }
 
 .div1 { grid-area: 1 / 1 / 2 / 6; }
@@ -81,14 +81,14 @@
 
 .grayBackGround {
   background-color: gray;
-  box-shadow: 5px 5px 5px #282c34
+  box-shadow: 5px 5px 5px #282c34;
 }
 
 .lightGrayBackGround {
   background-color: #e7e7e7;
-  color: black; 
+  color: black;
   border-color: #fff;
-  box-shadow: 5px 5px 5px #282c34; 
+  box-shadow: 5px 5px 5px #282c34;
 }
 
 .lightGrayBackGround:hover {
@@ -102,7 +102,7 @@
 }
 
 .salmonBackGround:hover {
-  background-color: #ff6600;
+  background-color: #f60;
 }
 
 .total {
@@ -113,7 +113,7 @@
   height: 100%;
   align-items: center;
   margin-right: 10px;
-  color: #fff;  
+  color: #fff;
 }
 
 .gridIlignItem {
