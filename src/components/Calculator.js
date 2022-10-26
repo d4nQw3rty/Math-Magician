@@ -12,10 +12,13 @@ class Calculator extends React.Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick = (buttonName) => {
-    this.setState(calculate(this.state, buttonName));
+  handleClick = (event) => {
+    const result = calculate(this.state, event.target.textContent);
+    this.setState(result);
   }
-    render() {
+
+  render() {
+    const { total, next, operation } = this.state;
     return (
       <div>
         <h1>Calculator</h1>
@@ -25,21 +28,21 @@ class Calculator extends React.Component {
             <div className="div2 height"><button type="button" name="AC" className="gridIlignItem  lightGrayBackGround">AC</button></div>
             <div className="div3 height"><button type="button" name="+/-" className="gridIlignItem lightGrayBackGround">+ / -</button></div>
             <div className="div4 height"><button type="button" name="%" className="gridIlignItem lightGrayBackGround">%</button></div>
-            <div className="div5 height"><button type="button" name="÷"className="gridIlignItem salmonBackGround">÷</button></div>
+            <div className="div5 height"><button type="button" name="÷" className="gridIlignItem salmonBackGround">÷</button></div>
             <div className="div6 height">
-              <button type="button" name="7"className="gridIlignItem lightGrayBackGround">7</button>
+              <button type="button" name="7" className="gridIlignItem lightGrayBackGround">7</button>
               {' '}
             </div>
             <div className="div7 height">
-              <button type="button" name="8" className="gridIlignItem lightGrayBackGround">8</button>
+              <button onClick={this.handleClick} type="button" name="8" className="gridIlignItem lightGrayBackGround">8</button>
               {' '}
             </div>
             <div className="div8 height">
-              <button type="button" name="9" className="gridIlignItem lightGrayBackGround">9</button>
+              <button onClick={this.handleClick} type="button" name="9" className="gridIlignItem lightGrayBackGround">9</button>
               {' '}
             </div>
             <div className="div9 height">
-              <button type="button"  name="x"className="gridIlignItem salmonBackGround">x</button>
+              <button type="button" name="x" className="gridIlignItem salmonBackGround">x</button>
               {' '}
             </div>
             <div className="div10 height">
