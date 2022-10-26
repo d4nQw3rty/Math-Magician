@@ -8,68 +8,68 @@ class Calculator extends React.PureComponent {
         <div className="gridContainer">
           <div className="parent">
             <div className="div1 height grayBackGround"><span className="total">0</span></div>
-            <div className="div2 height lightGrayBackGround"><span className="gridIlignItem">AC</span></div>
-            <div className="div3 height lightGrayBackGround"><span className="gridIlignItem">+ / -</span></div>
-            <div className="div4 height lightGrayBackGround"><span className="gridIlignItem">%</span></div>
-            <div className="div5 height salmonBackGround"><span className="gridIlignItem">&divide;</span></div>
-            <div className="div6 height lightGrayBackGround">
-              <span className="gridIlignItem">7</span>
+            <div className="div2 height"><button type="button" className="gridIlignItem  lightGrayBackGround">AC</button></div>
+            <div className="div3 height"><button type="button" className="gridIlignItem lightGrayBackGround">+ / -</button></div>
+            <div className="div4 height"><button type="button" className="gridIlignItem lightGrayBackGround">%</button></div>
+            <div className="div5 height"><button type="button" className="gridIlignItem salmonBackGround">&divide;</button></div>
+            <div className="div6 height">
+              <button type="button" className="gridIlignItem lightGrayBackGround">7</button>
               {' '}
             </div>
-            <div className="div7 height lightGrayBackGround">
-              <span className="gridIlignItem">8</span>
+            <div className="div7 height">
+              <button type="button" className="gridIlignItem lightGrayBackGround">8</button>
               {' '}
             </div>
-            <div className="div8 height lightGrayBackGround">
-              <span className="gridIlignItem">9</span>
+            <div className="div8 height">
+              <button type="button" className="gridIlignItem lightGrayBackGround">9</button>
               {' '}
             </div>
-            <div className="div9 height salmonBackGround">
-              <span className="gridIlignItem">x</span>
+            <div className="div9 height">
+              <button type="button" className="gridIlignItem salmonBackGround">x</button>
               {' '}
             </div>
-            <div className="div10 height lightGrayBackGround">
-              <span className="gridIlignItem">4</span>
+            <div className="div10 height">
+              <button type="button" className="gridIlignItem lightGrayBackGround">4</button>
               {' '}
             </div>
-            <div className="div11 height lightGrayBackGround">
-              <span className="gridIlignItem">5</span>
+            <div className="div11 height">
+              <button type="button" className="gridIlignItem lightGrayBackGround">5</button>
               {' '}
             </div>
-            <div className="div12 height lightGrayBackGround">
-              <span className="gridIlignItem">6</span>
+            <div className="div12 height">
+              <button type="button" className="gridIlignItem lightGrayBackGround">6</button>
               {' '}
             </div>
-            <div className="div13 height salmonBackGround">
-              <span className="gridIlignItem">-</span>
+            <div className="div13 height">
+              <button type="button" className="gridIlignItem salmonBackGround">-</button>
               {' '}
             </div>
-            <div className="div14 height lightGrayBackGround">
-              <span className="gridIlignItem">1</span>
+            <div className="div14 height">
+              <button type="button" className="gridIlignItem lightGrayBackGround">1</button>
               {' '}
             </div>
-            <div className="div15 height lightGrayBackGround">
-              <span className="gridIlignItem">2</span>
+            <div className="div15 height">
+              <button type="button" className="gridIlignItem lightGrayBackGround">2</button>
               {' '}
             </div>
-            <div className="div16 height lightGrayBackGround">
-              <span className="gridIlignItem">3</span>
+            <div className="div16 height">
+              <button type="button" className="gridIlignItem lightGrayBackGround">3</button>
               {' '}
             </div>
-            <div className="div17 height salmonBackGround">
-              <span className="gridIlignItem">+</span>
+            <div className="div17 height">
+              <button type="button" className="gridIlignItem salmonBackGround">+</button>
               {' '}
             </div>
-            <div className="div18 height lightGrayBackGround">
-              <span className="gridIlignItem">0</span>
+            <div className="div18 height">
+              <button type="button" className="gridIlignItem lightGrayBackGround">0</button>
               {' '}
             </div>
-            <div className="div19 height lightGrayBackGround">
-              <span className="gridIlignItem">.</span>
+            <div className="div19 height">
+              <button type="button" className="gridIlignItem lightGrayBackGround">.</button>
               {' '}
             </div>
-            <div className="div20 height salmonBackGround">
-              <span className="gridIlignItem">-</span>
+            <div className="div20 height">
+              <button type="button" className="gridIlignItem salmonBackGround">-</button>
               {' '}
             </div>
           </div>
