@@ -42,6 +42,7 @@
   display: block;
   width: 35%;
   margin: 2% auto;
+  border: black;
 }
 
 .parent {
@@ -50,8 +51,6 @@
   grid-template-rows: repeat(6, 1fr);
   grid-column-gap: 1px;
   grid-row-gap: 1px;
-  border: solid 1px  rgb(231, 45, 25);
-  box-shadow: 2px 2px rgb(196, 128, 128);
 }
 
 .div1 { grid-area: 1 / 1 / 2 / 6; }
@@ -82,14 +81,28 @@
 
 .grayBackGround {
   background-color: gray;
+  box-shadow: 5px 5px 5px #282c34;
 }
 
 .lightGrayBackGround {
-  background-color: #ddd;
+  background-color: #e7e7e7;
+  color: black;
+  border-color: #fff;
+  box-shadow: 5px 5px 5px #282c34;
+}
+
+.lightGrayBackGround:hover {
+  background-color: #d7d7d7;
 }
 
 .salmonBackGround {
   background-color: #f57d1b;
+  border-color: #fff;
+  box-shadow: 5px 5px 5px #282c34;
+}
+
+.salmonBackGround:hover {
+  background-color: #f60;
 }
 
 .total {
