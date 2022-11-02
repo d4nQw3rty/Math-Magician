@@ -2,12 +2,11 @@ import React from 'react';
 
 const Quote = () => (
   <>
-    <h2>Quote</h2>
     <p
       style={{
         fontSize: '2rem',
         fontWeight: '600',
-        marginBottom: '2rem',
+        margin: '15% 5%',
         lineHeight: '1em',
         textAlign: 'justyfy',
       }}
