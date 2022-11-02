@@ -117,6 +117,7 @@ nav {
 .link {
   text-decoration: none;
   color: blue;
+  margin-right: 10px;
 }
 
 .link:hover {
