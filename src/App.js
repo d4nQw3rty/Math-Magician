@@ -3,6 +3,8 @@ import { Routes, Route, BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
 import Calculator from './components/Calculator';
 import Home from './components/Home';
+import Navbar from './components/Navbar';
+import Quote from './components/Quote';
 
 const App = () => (
   <Router className="App">
