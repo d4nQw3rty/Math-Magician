@@ -1,7 +1,15 @@
 
+.home {
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+    gap: 20px;
+}
+
 p {
   text-align: justify;
-  margin: 5% 5%;
+  margin: 0;
+  
 }
 
 .p1 {
