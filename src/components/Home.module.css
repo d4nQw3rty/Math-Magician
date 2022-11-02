@@ -1,0 +1,33 @@
+
+.home {
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto;
+  gap: 20px;
+}
+
+p {
+  text-align: justify;
+  margin: 0;
+}
+
+.p1 {
+  color: #00f;
+}
+
+.p2 {
+  color: #ee0020;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5%;
+}
+
+.container {
+  width: 80%;
+  border: solid rgb(136, 135, 133);
+  flex: 1;
+}
