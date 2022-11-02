@@ -12,8 +12,8 @@ const Quote = () => (
         textAlign: 'justyfy',
       }}
     >
-      Mathematics is not about numbers, equations, computations, or
-      algorithms: it is about understanding.
+      &rdquo;Mathematics is not about numbers, equations, computations, or
+      algorithms: it is about understanding&rdquo;
       <span> -- William Paul Thurston</span>
     </p>
   </>
