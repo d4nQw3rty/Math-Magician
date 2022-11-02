@@ -1,7 +1,13 @@
+
+p {
+  text-align: justify;
+  margin: 5% 5%;
+}
+
 .p1 {
-    color: #00f;
-  }
-  
-  .p2 {
-    color: #28ac61;
-  }
+  color: #00f;
+}
+
+.p2 {
+  color: #ee0020;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Calculator from './components/Calculator';
+import Home from './components/Home';
 
 class App extends React.PureComponent {
   render() {
@@ -8,6 +9,7 @@ class App extends React.PureComponent {
       <div className="App">
         <section>
           <Calculator />
+          <Home />
         </section>
       </div>
     );
