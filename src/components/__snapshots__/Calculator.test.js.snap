@@ -1,0 +1,275 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checking Calculator deployment if Calculator renders correctly 1`] = `
+<div
+  className="calculator"
+>
+  <h1>
+    Let's do some math!
+  </h1>
+  <div
+    className="container"
+  >
+    <div
+      className="gridContainer"
+    >
+      <div
+        className="parent"
+      >
+        <div
+          className="div1 height grayBackGround"
+        >
+          <span
+            className="total"
+          >
+            0
+          </span>
+        </div>
+        <div
+          className="div2 height"
+        >
+          <button
+            className="gridIlignItem  lightGrayBackGround"
+            name="AC"
+            onClick={[Function]}
+            type="button"
+          >
+            AC
+          </button>
+        </div>
+        <div
+          className="div3 height"
+        >
+          <button
+            className="gridIlignItem lightGrayBackGround"
+            name="+/-"
+            onClick={[Function]}
+            type="button"
+          >
+            +/-
+          </button>
+        </div>
+        <div
+          className="div4 height"
+        >
+          <button
+            className="gridIlignItem lightGrayBackGround"
+            name="%"
+            onClick={[Function]}
+            type="button"
+          >
+            %
+          </button>
+        </div>
+        <div
+          className="div5 height"
+        >
+          <button
+            className="gridIlignItem salmonBackGround"
+            name="÷"
+            onClick={[Function]}
+            type="button"
+          >
+            ÷
+          </button>
+        </div>
+        <div
+          className="div6 height"
+        >
+          <button
+            className="gridIlignItem lightGrayBackGround"
+            name="7"
+            onClick={[Function]}
+            type="button"
+          >
+            7
+          </button>
+           
+        </div>
+        <div
+          className="div7 height"
+        >
+          <button
+            className="gridIlignItem lightGrayBackGround"
+            name="8"
+            onClick={[Function]}
+            type="button"
+          >
+            8
+          </button>
+           
+        </div>
+        <div
+          className="div8 height"
+        >
+          <button
+            className="gridIlignItem lightGrayBackGround"
+            name="9"
+            onClick={[Function]}
+            type="button"
+          >
+            9
+          </button>
+           
+        </div>
+        <div
+          className="div9 height"
+        >
+          <button
+            className="gridIlignItem salmonBackGround"
+            name="x"
+            onClick={[Function]}
+            type="button"
+          >
+            x
+          </button>
+           
+        </div>
+        <div
+          className="div10 height"
+        >
+          <button
+            className="gridIlignItem lightGrayBackGround"
+            name="4"
+            onClick={[Function]}
+            type="button"
+          >
+            4
+          </button>
+           
+        </div>
+        <div
+          className="div11 height"
+        >
+          <button
+            className="gridIlignItem lightGrayBackGround"
+            name="5"
+            onClick={[Function]}
+            type="button"
+          >
+            5
+          </button>
+           
+        </div>
+        <div
+          className="div12 height"
+        >
+          <button
+            className="gridIlignItem lightGrayBackGround"
+            name="6"
+            onClick={[Function]}
+            type="button"
+          >
+            6
+          </button>
+           
+        </div>
+        <div
+          className="div13 height"
+        >
+          <button
+            className="gridIlignItem salmonBackGround"
+            name="-"
+            onClick={[Function]}
+            type="button"
+          >
+            -
+          </button>
+           
+        </div>
+        <div
+          className="div14 height"
+        >
+          <button
+            className="gridIlignItem lightGrayBackGround"
+            name="1"
+            onClick={[Function]}
+            type="button"
+          >
+            1
+          </button>
+           
+        </div>
+        <div
+          className="div15 height"
+        >
+          <button
+            className="gridIlignItem lightGrayBackGround"
+            name="2"
+            onClick={[Function]}
+            type="button"
+          >
+            2
+          </button>
+           
+        </div>
+        <div
+          className="div16 height"
+        >
+          <button
+            className="gridIlignItem lightGrayBackGround"
+            name="3"
+            onClick={[Function]}
+            type="button"
+          >
+            3
+          </button>
+           
+        </div>
+        <div
+          className="div17 height"
+        >
+          <button
+            className="gridIlignItem salmonBackGround"
+            name="+"
+            onClick={[Function]}
+            type="button"
+          >
+            +
+          </button>
+           
+        </div>
+        <div
+          className="div18 height"
+        >
+          <button
+            className="gridIlignItem lightGrayBackGround"
+            name="0"
+            onClick={[Function]}
+            type="button"
+          >
+            0
+          </button>
+           
+        </div>
+        <div
+          className="div19 height"
+        >
+          <button
+            className="gridIlignItem lightGrayBackGround"
+            name="."
+            onClick={[Function]}
+            type="button"
+          >
+            .
+          </button>
+           
+        </div>
+        <div
+          className="div20 height"
+        >
+          <button
+            className="gridIlignItem salmonBackGround"
+            name="="
+            onClick={[Function]}
+            type="button"
+          >
+            =
+          </button>
+           
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

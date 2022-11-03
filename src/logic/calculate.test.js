@@ -2,8 +2,6 @@ import calculate from './calculate';
 import operate from './operate';
 
 describe('testing calculate component', () => {
-
- 
   test('testing if calculate is working properly', () => {
     const obj = {
       total: null,
