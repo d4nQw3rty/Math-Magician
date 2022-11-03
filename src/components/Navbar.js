@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const links = [
   {
     id: 1,
-    path: '/Home',
+    path: '/',
     text: 'Home',
     separator: '|',
   },
@@ -29,7 +29,7 @@ const Navbar = () => (
         <ul className="list">
           {links.map((link) => (
             <li key={link.id}>
-              <NavLink to={link.path} activeClassName="active-link" className="link" exact>
+              <NavLink to={link.path} activeclassname="active-link" className="link">
                 { link.text }
               </NavLink>
               <span>
