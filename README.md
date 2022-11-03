@@ -14,7 +14,7 @@
 - React
 ## Live Demo (if available)
 
-Go Live![https://resplendent-longma-c4849a.netlify.app/]
+[Go Live!](https://resplendent-longma-c4849a.netlify.app/)
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
